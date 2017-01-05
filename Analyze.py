@@ -1,8 +1,3 @@
-"""
-
-@author: Group B
-
-"""
 import matplotlib.pyplot as plt
 from pylab import rcParams
 
