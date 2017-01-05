@@ -1,8 +1,3 @@
-
-"""
-@author: Group B
-"""
-
 import urllib
 import http.cookiejar
 from bs4 import BeautifulSoup
