@@ -1,8 +1,3 @@
-
-"""
-@author: Group B
-"""
-
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select,WebDriverWait
 from bs4 import BeautifulSoup
