@@ -1,8 +1,3 @@
-
-"""
-@author: Group B
-"""
-
 from load import loadData
 from Search import ClsSearch
 import os,csv
