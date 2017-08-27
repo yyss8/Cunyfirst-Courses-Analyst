@@ -29,7 +29,7 @@ class loadData(object):
         #cunyfirst login 
         loginId = self.id
         password = self.pw
-        logUrl="https://home.cunyfirst.cuny.edu/access/dummy.cgi?login=%s&password=%s&submit.x=0&submit.y=0"%(loginId,password)  
+        logUrl="https://ssologin.cuny.edu/oam/server/auth_cred_submit?username=%s&password=%s&submit.x=0&submit.y=0"%(loginId,password)  
         r=openner.open(logUrl)
         if 'Student Center' not in str(r.read()): #check if login succeed
             return False
